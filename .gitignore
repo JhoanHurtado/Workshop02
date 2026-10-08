@@ -1,0 +1,32 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter & Matplotlib temporary caches
+.ipynb_checkpoints/
+.jupyter_env/
+.tmp_mpl/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+
+# Database files generated at runtime
+*.db
+*.sqlite
+airflow.db
+airflow.db-wal
+airflow.db-shm
+# Airflow logs and temporary files (if any)
+airflow/*.log
+airflow/*.pid
+# Secret or credential files (generated, not to be versioned)
+*.json.generated

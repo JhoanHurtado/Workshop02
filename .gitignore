@@ -30,3 +30,8 @@ airflow/*.log
 airflow/*.pid
 # Secret or credential files (generated, not to be versioned)
 *.json.generated
+
+# Logs de Airflow / cualquier proceso
+logs/
+airflow/*.log
+airflow/*.pid
